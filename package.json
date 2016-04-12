@@ -2,10 +2,11 @@
   "name": "bbs_test",
   "version": "0.0.1",
   "description": "my tutorial of node.js",
-  "main": "bbs.js",
+  "main": "app.js",
   "dependencies": {
     "ejs": "^2.4.1",
     "mysql": "^2.10.2"
+    "express": "*"
   },
   "devDependencies": {},
   "scripts": {

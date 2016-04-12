@@ -1,7 +1,8 @@
 {
-    "port":1337,
-    "host":"localhost",
-    
+    "webServer": {
+	"port":3000,
+	"host":"localhost"
+    },
     "databaseAuth": {
         "user": "root",
         "password": "",
