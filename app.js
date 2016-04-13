@@ -12,7 +12,7 @@ app.set('view engine', 'jade');
 
 app.use('/', routes);
 
-app.listen(settings.webServer.port,function(){
+app.listen(settings.webServer,function(){
     console.log("server running at" + settings.webServer.port);
 });
 

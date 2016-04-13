@@ -4,9 +4,10 @@
   "description": "my tutorial of node.js",
   "main": "app.js",
   "dependencies": {
-    "jade": "*",
-    "mysql": "^2.10.2",
-    "express": "*"
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "knex": "^0.10.0",
+    "mysql": "^2.10.2"
   },
   "devDependencies": {},
   "scripts": {
