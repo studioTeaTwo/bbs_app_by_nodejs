@@ -6,7 +6,7 @@ var connection = mysql.createConnection(settings.databaseAuth);
 
 module.exports = {
 	getRecords: function(req, res) {
-	    var sql = 'SELECT `id`,`response`,`created_at` FROM `post` order by id';
+	    var sql = 'SELECT `id`,`response`,`created_at` FROM `posts` order by id';
 	    connection.query(
 		  	sql, 
 		  	function (error, results, fields) {
@@ -23,7 +23,7 @@ module.exports = {
 	    });
 	    req.on("end", function() {
 		var contents = qs.parse(body);
-		var sql = "insert into post set ?";
+		var sql = "insert into posts set ?";
 		connection.query(
 			sql,{response:contents.name,created_at:new Date()},
 			function(error,results,fields){
