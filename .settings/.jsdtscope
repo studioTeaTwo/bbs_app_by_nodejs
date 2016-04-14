@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="node_modules/mongodb/node_modules/readable-stream/lib/|node_modules/inherits/|node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/browser_build/|node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/tools/|node_modules/mongodb/node_modules/es6-promise/lib/es6-promise/|node_modules/mongodb/node_modules/mongodb-core/lib/connection/|node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/build/|node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/alternate_parsers/|node_modules/mongodb/node_modules/mongodb-core/|node_modules/mysql/lib/protocol/packets/|node_modules/mongodb/node_modules/mongodb-core/node_modules/require_optional/node_modules/resolve-from/|node_modules/mongodb/node_modules/mongodb-core/node_modules/require_optional/test/|node_modules/mysql/lib/protocol/sequences/|node_modules/core-util-is/|node_modules/mongodb/node_modules/readable-stream/|node_modules/mongodb/node_modules/es6-promise/lib/es6-promise/promise/|node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/|node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/|node_modules/mongodb/lib/bulk/|node_modules/mongodb/|node_modules/mongodb/node_modules/mongodb-core/lib/|node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/|node_modules/mongodb/node_modules/mongodb-core/lib/topologies/strategies/|node_modules/mysql/|node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/parser/|node_modules/ejs/test/|node_modules/mongodb/node_modules/es6-promise/lib/|node_modules/readable-stream/|node_modules/mysql/lib/protocol/|node_modules/mongodb/lib/gridfs-stream/|node_modules/bignumber.js/|node_modules/mongodb/node_modules/mongodb-core/node_modules/require_optional/|node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/|node_modules/mongodb/node_modules/mongodb-core/lib/auth/|node_modules/mongodb/node_modules/mongodb-core/node_modules/require_optional/node_modules/semver/|node_modules/mongodb/lib/|node_modules/mongodb/lib/gridfs/|node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/|node_modules/mongodb/node_modules/es6-promise/dist/|node_modules/mongodb/node_modules/mongodb-core/node_modules/require_optional/node_modules/semver/test/|node_modules/mysql/lib/|node_modules/mongodb/node_modules/mongodb-core/lib/wireprotocol/|node_modules/isarray/|node_modules/ejs/lib/|node_modules/ejs/|node_modules/mongodb/node_modules/mongodb-core/lib/tools/|node_modules/mongodb/node_modules/mongodb-core/lib/topologies/|node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/lib/|node_modules/string_decoder/|node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/|node_modules/core-util-is/lib/|node_modules/mysql/lib/protocol/constants/|node_modules/isarray/build/|node_modules/readable-stream/lib/" kind="src" path=""/>
+	<classpathentry kind="src" path="node_modules/bignumber.js"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/core-util-is"/>
+	<classpathentry kind="src" path="node_modules/core-util-is/lib"/>
+	<classpathentry excluding="test/|lib/" kind="src" path="node_modules/ejs"/>
+	<classpathentry kind="src" path="node_modules/ejs/lib"/>
+	<classpathentry kind="src" path="node_modules/ejs/test"/>
+	<classpathentry kind="src" path="node_modules/inherits"/>
+	<classpathentry excluding="build/" kind="src" path="node_modules/isarray"/>
+	<classpathentry kind="src" path="node_modules/isarray/build"/>
+	<classpathentry excluding="node_modules/readable-stream/lib/|node_modules/mongodb-core/node_modules/bson/browser_build/|node_modules/mongodb-core/node_modules/bson/tools/|node_modules/es6-promise/lib/es6-promise/|node_modules/mongodb-core/lib/connection/|node_modules/readable-stream/node_modules/isarray/build/|node_modules/mongodb-core/node_modules/bson/alternate_parsers/|node_modules/mongodb-core/|node_modules/mongodb-core/node_modules/require_optional/node_modules/resolve-from/|node_modules/mongodb-core/node_modules/require_optional/test/|node_modules/readable-stream/|node_modules/es6-promise/lib/es6-promise/promise/|node_modules/readable-stream/node_modules/core-util-is/|node_modules/readable-stream/node_modules/isarray/|lib/bulk/|node_modules/mongodb-core/lib/|node_modules/mongodb-core/node_modules/bson/lib/bson/|node_modules/mongodb-core/lib/topologies/strategies/|node_modules/mongodb-core/node_modules/bson/lib/bson/parser/|node_modules/es6-promise/lib/|lib/gridfs-stream/|node_modules/mongodb-core/node_modules/require_optional/|node_modules/readable-stream/node_modules/inherits/|node_modules/mongodb-core/lib/auth/|node_modules/mongodb-core/node_modules/require_optional/node_modules/semver/|lib/|lib/gridfs/|node_modules/readable-stream/node_modules/string_decoder/|node_modules/es6-promise/dist/|node_modules/mongodb-core/node_modules/require_optional/node_modules/semver/test/|node_modules/mongodb-core/lib/wireprotocol/|node_modules/mongodb-core/lib/tools/|node_modules/mongodb-core/lib/topologies/|node_modules/readable-stream/node_modules/core-util-is/lib/|node_modules/mongodb-core/node_modules/bson/" kind="src" path="node_modules/mongodb"/>
+	<classpathentry excluding="bulk/|gridfs-stream/|gridfs/" kind="src" path="node_modules/mongodb/lib"/>
+	<classpathentry kind="src" path="node_modules/mongodb/lib/bulk"/>
+	<classpathentry kind="src" path="node_modules/mongodb/lib/gridfs"/>
+	<classpathentry kind="src" path="node_modules/mongodb/lib/gridfs-stream"/>
+	<classpathentry kind="src" path="node_modules/mongodb/node_modules/es6-promise/dist"/>
+	<classpathentry excluding="es6-promise/|es6-promise/promise/" kind="src" path="node_modules/mongodb/node_modules/es6-promise/lib"/>
+	<classpathentry excluding="promise/" kind="src" path="node_modules/mongodb/node_modules/es6-promise/lib/es6-promise"/>
+	<classpathentry kind="src" path="node_modules/mongodb/node_modules/es6-promise/lib/es6-promise/promise"/>
+	<classpathentry excluding="node_modules/bson/browser_build/|node_modules/bson/tools/|lib/connection/|node_modules/bson/alternate_parsers/|node_modules/require_optional/node_modules/resolve-from/|node_modules/require_optional/test/|lib/|node_modules/bson/lib/bson/|lib/topologies/strategies/|node_modules/bson/lib/bson/parser/|node_modules/require_optional/|lib/auth/|node_modules/require_optional/node_modules/semver/|node_modules/require_optional/node_modules/semver/test/|lib/wireprotocol/|lib/tools/|lib/topologies/|node_modules/bson/" kind="src" path="node_modules/mongodb/node_modules/mongodb-core"/>
+	<classpathentry excluding="connection/|topologies/strategies/|auth/|wireprotocol/|tools/|topologies/" kind="src" path="node_modules/mongodb/node_modules/mongodb-core/lib"/>
+	<classpathentry kind="src" path="node_modules/mongodb/node_modules/mongodb-core/lib/auth"/>
+	<classpathentry kind="src" path="node_modules/mongodb/node_modules/mongodb-core/lib/connection"/>
+	<classpathentry kind="src" path="node_modules/mongodb/node_modules/mongodb-core/lib/tools"/>
+	<classpathentry excluding="strategies/" kind="src" path="node_modules/mongodb/node_modules/mongodb-core/lib/topologies"/>
+	<classpathentry kind="src" path="node_modules/mongodb/node_modules/mongodb-core/lib/topologies/strategies"/>
+	<classpathentry kind="src" path="node_modules/mongodb/node_modules/mongodb-core/lib/wireprotocol"/>
+	<classpathentry excluding="browser_build/|tools/|alternate_parsers/|lib/bson/|lib/bson/parser/" kind="src" path="node_modules/mongodb/node_modules/mongodb-core/node_modules/bson"/>
+	<classpathentry kind="src" path="node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/alternate_parsers"/>
+	<classpathentry kind="src" path="node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/browser_build"/>
+	<classpathentry excluding="parser/" kind="src" path="node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson"/>
+	<classpathentry kind="src" path="node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/parser"/>
+	<classpathentry kind="src" path="node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/tools"/>
+	<classpathentry excluding="node_modules/resolve-from/|test/|node_modules/semver/|node_modules/semver/test/" kind="src" path="node_modules/mongodb/node_modules/mongodb-core/node_modules/require_optional"/>
+	<classpathentry kind="src" path="node_modules/mongodb/node_modules/mongodb-core/node_modules/require_optional/node_modules/resolve-from"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/mongodb/node_modules/mongodb-core/node_modules/require_optional/node_modules/semver"/>
+	<classpathentry kind="src" path="node_modules/mongodb/node_modules/mongodb-core/node_modules/require_optional/node_modules/semver/test"/>
+	<classpathentry kind="src" path="node_modules/mongodb/node_modules/mongodb-core/node_modules/require_optional/test"/>
+	<classpathentry excluding="lib/|node_modules/isarray/build/|node_modules/core-util-is/|node_modules/isarray/|node_modules/inherits/|node_modules/string_decoder/|node_modules/core-util-is/lib/" kind="src" path="node_modules/mongodb/node_modules/readable-stream"/>
+	<classpathentry kind="src" path="node_modules/mongodb/node_modules/readable-stream/lib"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is"/>
+	<classpathentry kind="src" path="node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/lib"/>
+	<classpathentry kind="src" path="node_modules/mongodb/node_modules/readable-stream/node_modules/inherits"/>
+	<classpathentry excluding="build/" kind="src" path="node_modules/mongodb/node_modules/readable-stream/node_modules/isarray"/>
+	<classpathentry kind="src" path="node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/build"/>
+	<classpathentry kind="src" path="node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder"/>
+	<classpathentry excluding="lib/protocol/packets/|lib/protocol/sequences/|lib/protocol/|lib/|lib/protocol/constants/" kind="src" path="node_modules/mysql"/>
+	<classpathentry excluding="protocol/packets/|protocol/sequences/|protocol/|protocol/constants/" kind="src" path="node_modules/mysql/lib"/>
+	<classpathentry excluding="packets/|sequences/|constants/" kind="src" path="node_modules/mysql/lib/protocol"/>
+	<classpathentry kind="src" path="node_modules/mysql/lib/protocol/constants"/>
+	<classpathentry kind="src" path="node_modules/mysql/lib/protocol/packets"/>
+	<classpathentry kind="src" path="node_modules/mysql/lib/protocol/sequences"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/readable-stream"/>
+	<classpathentry kind="src" path="node_modules/readable-stream/lib"/>
+	<classpathentry kind="src" path="node_modules/string_decoder"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipselabs.jsdt.jquery.core.CoflictLibrary_3.0"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.FireFoxBrowserLibrary"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.baseBrowserLibrary"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

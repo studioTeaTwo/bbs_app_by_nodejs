@@ -1,7 +1,3 @@
-# bbs app
-this is sample app for my tutorial of node.js.
+# sails_sample
 
-## system requirements
-- Node.js
-- npm
-- MySQL
+a [Sails](http://sailsjs.org) application
