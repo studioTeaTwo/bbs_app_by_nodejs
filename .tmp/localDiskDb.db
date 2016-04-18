@@ -1,0 +1,39 @@
+{
+  "data": {
+    "posts": [
+      {
+        "name": "polidog",
+        "createdAt": "2016-04-16T23:22:43.831Z",
+        "updatedAt": "2016-04-16T23:22:43.831Z",
+        "id": 1
+      },
+      {
+        "name": "polidog",
+        "createdAt": "2016-04-16T23:23:05.191Z",
+        "updatedAt": "2016-04-16T23:23:05.191Z",
+        "id": 2
+      }
+    ]
+  },
+  "schema": {
+    "posts": {
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "posts": {
+      "id": 2
+    }
+  }
+}
