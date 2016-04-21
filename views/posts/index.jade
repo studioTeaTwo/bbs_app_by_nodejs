@@ -3,9 +3,10 @@ extends ../layout
 block body
   form(method="post")
     div(class="container")
-       input(type="text" name="contribution")
-       input(type="submit" class="btn btn-primary" value="Post!")
+      input(type="text" name="contribution")
+      input(type="submit" class="btn btn-primary img-responsive" value="Post!")
     div(class="container")
+      div(class="table-responsive")
       table(class="table table-striped table-bordered")
         - if(posts.length)
           - each post in posts
@@ -15,4 +16,4 @@ block body
             tr
               td(colspan=2)= post.response
         - else
-          p データがありません
+          p(class="bg-warning") データがありません
